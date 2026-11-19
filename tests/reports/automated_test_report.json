@@ -1,0 +1,841 @@
+{
+  "duration_seconds": 2.449,
+  "engine": "4.7.2-stable (official)",
+  "failed": 0,
+  "live_ai_test": "skipped: AI_WORLD_API_URL is not configured in the test environment",
+  "maximum_world_build_ms": 8.75,
+  "passed": 207,
+  "peak_static_memory_bytes": 48691069.0,
+  "platform": "Windows",
+  "results": [
+    {
+      "name": "Каталог ресурсов загружается",
+      "status": "passed"
+    },
+    {
+      "name": "Версия каталога — 1.0",
+      "status": "passed"
+    },
+    {
+      "name": "Каталог содержит пять тем",
+      "status": "passed"
+    },
+    {
+      "name": "Каталог содержит 31 разрешённый ресурс",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс tree_01 имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса tree_01 корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс pine_snow имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса pine_snow корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс dead_tree имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса dead_tree корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс giant_mushroom имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса giant_mushroom корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс rock_01 имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса rock_01 корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс boulder имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса boulder корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс stone_wall имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса stone_wall корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс ruined_wall имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса ruined_wall корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс castle_tower имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса castle_tower корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс column_stone имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса column_stone корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс temple_pillar имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса temple_pillar корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс stone_arch имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса stone_arch корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс bridge_stone имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса bridge_stone корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс crate_wood имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса crate_wood корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс door_ancient имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса door_ancient корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс sci_container имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса sci_container корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс sci_console имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса sci_console корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс robot_guard имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса robot_guard корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс statue_ancient имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса statue_ancient корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс obelisk имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса obelisk корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс torch имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса torch корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс lantern имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса lantern корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс ice_spire имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса ice_spire корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс crystal_cluster имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса crystal_cluster корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс crystal_blue имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса crystal_blue корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс crystal_red имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса crystal_red корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс artifact_gold имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса artifact_gold корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс energy_cell имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса energy_cell корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс portal_exit имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса portal_exit корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс ancient_gate имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса ancient_gate корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Ресурс airlock_exit имеет категорию, footprint и size",
+      "status": "passed"
+    },
+    {
+      "name": "Габариты ресурса airlock_exit корректны",
+      "status": "passed"
+    },
+    {
+      "name": "Демо JSON загружается: 01_enchanted_forest.json",
+      "status": "passed"
+    },
+    {
+      "name": "Демо проходит строгую валидацию и BFS: 01_enchanted_forest.json",
+      "status": "passed"
+    },
+    {
+      "name": "В демо ровно три предмета: 01_enchanted_forest.json",
+      "status": "passed"
+    },
+    {
+      "name": "Демо JSON загружается: 02_abandoned_castle.json",
+      "status": "passed"
+    },
+    {
+      "name": "Демо проходит строгую валидацию и BFS: 02_abandoned_castle.json",
+      "status": "passed"
+    },
+    {
+      "name": "В демо ровно три предмета: 02_abandoned_castle.json",
+      "status": "passed"
+    },
+    {
+      "name": "Демо JSON загружается: 03_mars_station.json",
+      "status": "passed"
+    },
+    {
+      "name": "Демо проходит строгую валидацию и BFS: 03_mars_station.json",
+      "status": "passed"
+    },
+    {
+      "name": "В демо ровно три предмета: 03_mars_station.json",
+      "status": "passed"
+    },
+    {
+      "name": "Демо JSON загружается: 04_ancient_temple.json",
+      "status": "passed"
+    },
+    {
+      "name": "Демо проходит строгую валидацию и BFS: 04_ancient_temple.json",
+      "status": "passed"
+    },
+    {
+      "name": "В демо ровно три предмета: 04_ancient_temple.json",
+      "status": "passed"
+    },
+    {
+      "name": "Демо JSON загружается: 05_ice_cave.json",
+      "status": "passed"
+    },
+    {
+      "name": "Демо проходит строгую валидацию и BFS: 05_ice_cave.json",
+      "status": "passed"
+    },
+    {
+      "name": "В демо ровно три предмета: 05_ice_cave.json",
+      "status": "passed"
+    },
+    {
+      "name": "Все пять офлайн-миров готовы к запуску",
+      "status": "passed"
+    },
+    {
+      "name": "Процедурный мир проходим: fantasy_forest",
+      "status": "passed"
+    },
+    {
+      "name": "Запрошенная тема соблюдена: fantasy_forest",
+      "status": "passed"
+    },
+    {
+      "name": "Процедурный мир проходим: abandoned_castle",
+      "status": "passed"
+    },
+    {
+      "name": "Запрошенная тема соблюдена: abandoned_castle",
+      "status": "passed"
+    },
+    {
+      "name": "Процедурный мир проходим: mars_station",
+      "status": "passed"
+    },
+    {
+      "name": "Запрошенная тема соблюдена: mars_station",
+      "status": "passed"
+    },
+    {
+      "name": "Процедурный мир проходим: ancient_temple",
+      "status": "passed"
+    },
+    {
+      "name": "Запрошенная тема соблюдена: ancient_temple",
+      "status": "passed"
+    },
+    {
+      "name": "Процедурный мир проходим: ice_cave",
+      "status": "passed"
+    },
+    {
+      "name": "Запрошенная тема соблюдена: ice_cave",
+      "status": "passed"
+    },
+    {
+      "name": "Одинаковые описание и параметры воспроизводят один мир",
+      "status": "passed"
+    },
+    {
+      "name": "Параметр размера меняет карту 16×16 / 30×30",
+      "status": "passed"
+    },
+    {
+      "name": "Разные описания создают разные seed",
+      "status": "passed"
+    },
+    {
+      "name": "BFS находит путь вокруг неполной стены",
+      "status": "passed"
+    },
+    {
+      "name": "BFS отклоняет путь через сплошную стену",
+      "status": "passed"
+    },
+    {
+      "name": "BFS возвращает кратчайший маршрут",
+      "status": "passed"
+    },
+    {
+      "name": "Валидатор отклоняет отсутствующее обязательное поле",
+      "status": "passed"
+    },
+    {
+      "name": "Строгая схема отклоняет дополнительное корневое поле",
+      "status": "passed"
+    },
+    {
+      "name": "Строгая схема отклоняет дополнительное поле объекта",
+      "status": "passed"
+    },
+    {
+      "name": "Валидатор ограничивает seed диапазоном int32 схемы",
+      "status": "passed"
+    },
+    {
+      "name": "Валидатор отклоняет неизвестный resource_id",
+      "status": "passed"
+    },
+    {
+      "name": "Валидатор блокирует пути в resource_id",
+      "status": "passed"
+    },
+    {
+      "name": "Валидатор обнаруживает пересечение объектов",
+      "status": "passed"
+    },
+    {
+      "name": "Валидатор отклоняет координаты вне карты",
+      "status": "passed"
+    },
+    {
+      "name": "Валидатор отклоняет поворот 45°",
+      "status": "passed"
+    },
+    {
+      "name": "Валидатор отклоняет дробный индекс клетки",
+      "status": "passed"
+    },
+    {
+      "name": "Проверка проходимости отклоняет сплошной барьер",
+      "status": "passed"
+    },
+    {
+      "name": "Автопочинка удаляет объект с опасным ID",
+      "status": "passed"
+    },
+    {
+      "name": "Автопочинка формирует понятный журнал изменений",
+      "status": "passed"
+    },
+    {
+      "name": "Автопочинка восстанавливает маршрут удалением блокирующего объекта",
+      "status": "passed"
+    },
+    {
+      "name": "Парсер принимает JSON в markdown-ограждении",
+      "status": "passed"
+    },
+    {
+      "name": "Парсер безопасно извлекает единственный JSON-объект",
+      "status": "passed"
+    },
+    {
+      "name": "Парсер корректно отклоняет повреждённый ответ LLM",
+      "status": "passed"
+    },
+    {
+      "name": "Незашифрованный внешний HTTP API запрещён",
+      "status": "passed"
+    },
+    {
+      "name": "Локальный OpenAI-compatible API разрешён",
+      "status": "passed"
+    },
+    {
+      "name": "LLM получает белые списки разрешённых ID",
+      "status": "passed"
+    },
+    {
+      "name": "Первый сбор предмета засчитывается",
+      "status": "passed"
+    },
+    {
+      "name": "Повторный сбор предмета не засчитывается",
+      "status": "passed"
+    },
+    {
+      "name": "Выход закрыт при 1/3",
+      "status": "passed"
+    },
+    {
+      "name": "Выход открыт только при 3/3",
+      "status": "passed"
+    },
+    {
+      "name": "Повторная игра полностью сбрасывает правила",
+      "status": "passed"
+    },
+    {
+      "name": "Глобальное состояние принимает уникальный предмет",
+      "status": "passed"
+    },
+    {
+      "name": "Глобальное состояние отклоняет дубликат",
+      "status": "passed"
+    },
+    {
+      "name": "Глобальный выход закрыт при 2/3",
+      "status": "passed"
+    },
+    {
+      "name": "Глобальный выход активируется при 3/3",
+      "status": "passed"
+    },
+    {
+      "name": "Replay сбрасывает счётчик и выход",
+      "status": "passed"
+    },
+    {
+      "name": "Сгенерированный JSON сохраняется в user://",
+      "status": "passed"
+    },
+    {
+      "name": "Сохранённый мир повторно загружается и валидируется",
+      "status": "passed"
+    },
+    {
+      "name": "Загрузка произвольного системного пути запрещена",
+      "status": "passed"
+    },
+    {
+      "name": "История пользовательских описаний сохраняется",
+      "status": "passed"
+    },
+    {
+      "name": "Журнал приложения создаётся при первой записи",
+      "status": "passed"
+    },
+    {
+      "name": "Журнал приложения сохраняет сообщение",
+      "status": "passed"
+    },
+    {
+      "name": "Игрок использует CharacterBody3D",
+      "status": "passed"
+    },
+    {
+      "name": "У игрока есть физическая капсула",
+      "status": "passed"
+    },
+    {
+      "name": "У игрока есть FPS-камера",
+      "status": "passed"
+    },
+    {
+      "name": "Игрок находится в collision-группе player",
+      "status": "passed"
+    },
+    {
+      "name": "Input Map содержит действие move_forward",
+      "status": "passed"
+    },
+    {
+      "name": "Input Map содержит действие move_back",
+      "status": "passed"
+    },
+    {
+      "name": "Input Map содержит действие move_left",
+      "status": "passed"
+    },
+    {
+      "name": "Input Map содержит действие move_right",
+      "status": "passed"
+    },
+    {
+      "name": "Input Map содержит действие jump",
+      "status": "passed"
+    },
+    {
+      "name": "Input Map содержит действие sprint",
+      "status": "passed"
+    },
+    {
+      "name": "Input Map содержит действие interact",
+      "status": "passed"
+    },
+    {
+      "name": "Input Map содержит действие pause",
+      "status": "passed"
+    },
+    {
+      "name": "Игрок корректно определяется на полу",
+      "status": "passed"
+    },
+    {
+      "name": "WASD фактически перемещает CharacterBody3D",
+      "status": "passed"
+    },
+    {
+      "name": "Физическая капсула останавливается у стены и не проходит сквозь неё",
+      "status": "passed"
+    },
+    {
+      "name": "Space фактически запускает прыжок с гравитацией",
+      "status": "passed"
+    },
+    {
+      "name": "Движение мыши изменяет yaw и ограниченный pitch камеры",
+      "status": "passed"
+    },
+    {
+      "name": "Вертикальный обзор мышью ограничен углом 86°",
+      "status": "passed"
+    },
+    {
+      "name": "Esc вызывает сигнал паузы",
+      "status": "passed"
+    },
+    {
+      "name": "UI-сцена создаётся: main_menu.tscn",
+      "status": "passed"
+    },
+    {
+      "name": "UI-сцена создаётся: create_world.tscn",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка генерации существует в адаптивном конструкторе",
+      "status": "passed"
+    },
+    {
+      "name": "Все пять кнопок демо созданы",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка «СГЕНЕРИРОВАТЬ МИР» видна при 1280×720",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо 1 видна при 1280×720",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо 2 видна при 1280×720",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо 3 видна при 1280×720",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо 4 видна при 1280×720",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо 5 видна при 1280×720",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 1 и 2 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 1 и 3 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 1 и 4 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 1 и 5 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 2 и 3 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 2 и 4 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 2 и 5 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 3 и 4 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 3 и 5 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопки демо 4 и 5 не перекрываются",
+      "status": "passed"
+    },
+    {
+      "name": "При узком окне панели перестраиваются вертикально",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка генерации не обрезается по горизонтали при 900×600",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо не обрезается по горизонтали при 900×600",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо не обрезается по горизонтали при 900×600",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо не обрезается по горизонтали при 900×600",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо не обрезается по горизонтали при 900×600",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка демо не обрезается по горизонтали при 900×600",
+      "status": "passed"
+    },
+    {
+      "name": "Кнопка генерации доступна через прокрутку при 900×600",
+      "status": "passed"
+    },
+    {
+      "name": "Демо-кнопки доступны через прокрутку при 900×600",
+      "status": "passed"
+    },
+    {
+      "name": "UI-сцена создаётся: generation.tscn",
+      "status": "passed"
+    },
+    {
+      "name": "UI-сцена создаётся: game_hud.tscn",
+      "status": "passed"
+    },
+    {
+      "name": "UI-сцена создаётся: settings.tscn",
+      "status": "passed"
+    },
+    {
+      "name": "UI-сцена создаётся: about.tscn",
+      "status": "passed"
+    },
+    {
+      "name": "UI-сцена создаётся: victory.tscn",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт FPS-игрока: fantasy_forest",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт выход: fantasy_forest",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт все объекты: fantasy_forest",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка укладывается в 5 секунд: fantasy_forest (8.75 ms)",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт FPS-игрока: abandoned_castle",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт выход: abandoned_castle",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт все объекты: abandoned_castle",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка укладывается в 5 секунд: abandoned_castle (7.98 ms)",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт FPS-игрока: mars_station",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт выход: mars_station",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт все объекты: mars_station",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка укладывается в 5 секунд: mars_station (8.17 ms)",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт FPS-игрока: ancient_temple",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт выход: ancient_temple",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт все объекты: ancient_temple",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка укладывается в 5 секунд: ancient_temple (8.16 ms)",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт FPS-игрока: ice_cave",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт выход: ice_cave",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка создаёт все объекты: ice_cave",
+      "status": "passed"
+    },
+    {
+      "name": "3D-сборка укладывается в 5 секунд: ice_cave (7.02 ms)",
+      "status": "passed"
+    }
+  ],
+  "total": 207
+}

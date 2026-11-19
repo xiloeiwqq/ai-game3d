@@ -1,0 +1,22 @@
+{
+  "schema_version":"1.0","world_name":"Храм Солнечного Змея","theme_id":"ancient_temple","seed":47291,
+  "map":{"width":20,"depth":24,"cell_size":2.4},
+  "environment":{"floor_id":"temple_stone","sky_id":"temple_sky","lighting_id":"temple_lighting"},
+  "player_start":{"cell_x":1,"cell_z":1},
+  "objects":[
+    {"resource_id":"temple_pillar","cell_x":4,"cell_z":4,"rotation":0},{"resource_id":"temple_pillar","cell_x":15,"cell_z":4,"rotation":0},
+    {"resource_id":"temple_pillar","cell_x":4,"cell_z":10,"rotation":0},{"resource_id":"temple_pillar","cell_x":15,"cell_z":10,"rotation":0},
+    {"resource_id":"temple_pillar","cell_x":4,"cell_z":16,"rotation":0},{"resource_id":"temple_pillar","cell_x":15,"cell_z":16,"rotation":0},
+    {"resource_id":"stone_wall","cell_x":7,"cell_z":7,"rotation":90},{"resource_id":"ruined_wall","cell_x":11,"cell_z":7,"rotation":90},
+    {"resource_id":"stone_arch","cell_x":9,"cell_z":12,"rotation":0},{"resource_id":"statue_ancient","cell_x":9,"cell_z":18,"rotation":0},
+    {"resource_id":"obelisk","cell_x":5,"cell_z":20,"rotation":0},{"resource_id":"obelisk","cell_x":14,"cell_z":20,"rotation":0},
+    {"resource_id":"torch","cell_x":7,"cell_z":14,"rotation":0},{"resource_id":"torch","cell_x":12,"cell_z":14,"rotation":0},
+    {"resource_id":"bridge_stone","cell_x":8,"cell_z":22,"rotation":0}
+  ],
+  "collectibles":[
+    {"resource_id":"artifact_gold","cell_x":6,"cell_z":6,"rotation":0},
+    {"resource_id":"crystal_red","cell_x":13,"cell_z":9,"rotation":90},
+    {"resource_id":"crystal_blue","cell_x":10,"cell_z":20,"rotation":180}
+  ],
+  "exit":{"resource_id":"ancient_gate","cell_x":18,"cell_z":21,"rotation":0}
+}

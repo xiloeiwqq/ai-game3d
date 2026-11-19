@@ -1,0 +1,7 @@
+.godot/
+build/
+dist/
+*.tmp
+*.log
+.env
+config/local_api.cfg

@@ -1,0 +1,23 @@
+{
+  "schema_version":"1.0","world_name":"Шёпот Изумрудной Чащи","theme_id":"fantasy_forest","seed":11027,
+  "map":{"width":20,"depth":20,"cell_size":2.5},
+  "environment":{"floor_id":"forest_ground","sky_id":"forest_sky","lighting_id":"forest_lighting"},
+  "player_start":{"cell_x":1,"cell_z":1},
+  "objects":[
+    {"resource_id":"tree_01","cell_x":3,"cell_z":2,"rotation":0},{"resource_id":"tree_01","cell_x":6,"cell_z":2,"rotation":90},
+    {"resource_id":"tree_01","cell_x":8,"cell_z":4,"rotation":180},{"resource_id":"tree_01","cell_x":13,"cell_z":3,"rotation":270},
+    {"resource_id":"tree_01","cell_x":17,"cell_z":4,"rotation":0},{"resource_id":"tree_01","cell_x":2,"cell_z":8,"rotation":90},
+    {"resource_id":"tree_01","cell_x":7,"cell_z":10,"rotation":180},{"resource_id":"tree_01","cell_x":12,"cell_z":9,"rotation":0},
+    {"resource_id":"tree_01","cell_x":17,"cell_z":10,"rotation":270},{"resource_id":"tree_01","cell_x":4,"cell_z":15,"rotation":0},
+    {"resource_id":"tree_01","cell_x":10,"cell_z":16,"rotation":90},{"resource_id":"tree_01","cell_x":16,"cell_z":16,"rotation":180},
+    {"resource_id":"giant_mushroom","cell_x":5,"cell_z":6,"rotation":0},{"resource_id":"giant_mushroom","cell_x":14,"cell_z":7,"rotation":90},
+    {"resource_id":"rock_01","cell_x":9,"cell_z":12,"rotation":0},{"resource_id":"crystal_cluster","cell_x":3,"cell_z":12,"rotation":180},
+    {"resource_id":"bridge_stone","cell_x":11,"cell_z":18,"rotation":0},{"resource_id":"lantern","cell_x":18,"cell_z":15,"rotation":0}
+  ],
+  "collectibles":[
+    {"resource_id":"crystal_blue","cell_x":4,"cell_z":4,"rotation":0},
+    {"resource_id":"crystal_red","cell_x":10,"cell_z":6,"rotation":90},
+    {"resource_id":"artifact_gold","cell_x":15,"cell_z":14,"rotation":180}
+  ],
+  "exit":{"resource_id":"portal_exit","cell_x":18,"cell_z":17,"rotation":0}
+}

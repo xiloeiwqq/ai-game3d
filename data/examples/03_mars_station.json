@@ -1,0 +1,21 @@
+{
+  "schema_version":"1.0","world_name":"Марсианский Узел «Аврора»","theme_id":"mars_station","seed":38041,
+  "map":{"width":24,"depth":20,"cell_size":2.5},
+  "environment":{"floor_id":"mars_dust","sky_id":"mars_sky","lighting_id":"mars_lighting"},
+  "player_start":{"cell_x":1,"cell_z":1},
+  "objects":[
+    {"resource_id":"sci_container","cell_x":4,"cell_z":3,"rotation":0},{"resource_id":"sci_container","cell_x":8,"cell_z":3,"rotation":90},
+    {"resource_id":"sci_container","cell_x":15,"cell_z":3,"rotation":0},{"resource_id":"sci_console","cell_x":11,"cell_z":5,"rotation":180},
+    {"resource_id":"sci_console","cell_x":19,"cell_z":6,"rotation":90},{"resource_id":"robot_guard","cell_x":6,"cell_z":9,"rotation":0},
+    {"resource_id":"robot_guard","cell_x":17,"cell_z":10,"rotation":180},{"resource_id":"obelisk","cell_x":12,"cell_z":10,"rotation":0},
+    {"resource_id":"boulder","cell_x":2,"cell_z":14,"rotation":0},{"resource_id":"boulder","cell_x":19,"cell_z":14,"rotation":0},
+    {"resource_id":"rock_01","cell_x":8,"cell_z":14,"rotation":0},{"resource_id":"rock_01","cell_x":15,"cell_z":16,"rotation":90},
+    {"resource_id":"lantern","cell_x":3,"cell_z":7,"rotation":0},{"resource_id":"lantern","cell_x":21,"cell_z":8,"rotation":0}
+  ],
+  "collectibles":[
+    {"resource_id":"energy_cell","cell_x":6,"cell_z":6,"rotation":0},
+    {"resource_id":"energy_cell","cell_x":13,"cell_z":8,"rotation":90},
+    {"resource_id":"energy_cell","cell_x":20,"cell_z":16,"rotation":180}
+  ],
+  "exit":{"resource_id":"airlock_exit","cell_x":22,"cell_z":17,"rotation":0}
+}

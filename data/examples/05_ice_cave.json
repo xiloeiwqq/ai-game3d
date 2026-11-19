@@ -1,0 +1,22 @@
+{
+  "schema_version":"1.0","world_name":"Сердце Ледяной Бездны","theme_id":"ice_cave","seed":59013,
+  "map":{"width":22,"depth":22,"cell_size":2.5},
+  "environment":{"floor_id":"ice_floor","sky_id":"ice_sky","lighting_id":"ice_lighting"},
+  "player_start":{"cell_x":1,"cell_z":1},
+  "objects":[
+    {"resource_id":"ice_spire","cell_x":4,"cell_z":3,"rotation":0},{"resource_id":"ice_spire","cell_x":9,"cell_z":4,"rotation":90},
+    {"resource_id":"ice_spire","cell_x":16,"cell_z":3,"rotation":180},{"resource_id":"ice_spire","cell_x":3,"cell_z":9,"rotation":270},
+    {"resource_id":"ice_spire","cell_x":12,"cell_z":9,"rotation":0},{"resource_id":"ice_spire","cell_x":18,"cell_z":10,"rotation":90},
+    {"resource_id":"ice_spire","cell_x":6,"cell_z":16,"rotation":180},{"resource_id":"ice_spire","cell_x":16,"cell_z":16,"rotation":270},
+    {"resource_id":"crystal_cluster","cell_x":6,"cell_z":6,"rotation":0},{"resource_id":"crystal_cluster","cell_x":14,"cell_z":6,"rotation":90},
+    {"resource_id":"crystal_cluster","cell_x":10,"cell_z":14,"rotation":180},{"resource_id":"boulder","cell_x":2,"cell_z":18,"rotation":0},
+    {"resource_id":"boulder","cell_x":18,"cell_z":18,"rotation":0},{"resource_id":"pine_snow","cell_x":2,"cell_z":5,"rotation":0},
+    {"resource_id":"pine_snow","cell_x":19,"cell_z":5,"rotation":0}
+  ],
+  "collectibles":[
+    {"resource_id":"crystal_blue","cell_x":5,"cell_z":12,"rotation":0},
+    {"resource_id":"crystal_red","cell_x":14,"cell_z":12,"rotation":90},
+    {"resource_id":"artifact_gold","cell_x":11,"cell_z":19,"rotation":180}
+  ],
+  "exit":{"resource_id":"portal_exit","cell_x":20,"cell_z":18,"rotation":0}
+}

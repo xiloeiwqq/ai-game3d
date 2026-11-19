@@ -1,0 +1,23 @@
+{
+  "schema_version":"1.0","world_name":"Цитадель Забытого Короля","theme_id":"abandoned_castle","seed":24018,
+  "map":{"width":22,"depth":22,"cell_size":2.4},
+  "environment":{"floor_id":"castle_stone","sky_id":"storm_sky","lighting_id":"castle_lighting"},
+  "player_start":{"cell_x":1,"cell_z":1},
+  "objects":[
+    {"resource_id":"castle_tower","cell_x":3,"cell_z":3,"rotation":0},{"resource_id":"castle_tower","cell_x":17,"cell_z":3,"rotation":0},
+    {"resource_id":"castle_tower","cell_x":3,"cell_z":17,"rotation":0},{"resource_id":"stone_wall","cell_x":7,"cell_z":3,"rotation":90},
+    {"resource_id":"ruined_wall","cell_x":11,"cell_z":3,"rotation":90},{"resource_id":"stone_wall","cell_x":14,"cell_z":3,"rotation":90},
+    {"resource_id":"stone_wall","cell_x":5,"cell_z":8,"rotation":0},{"resource_id":"ruined_wall","cell_x":10,"cell_z":9,"rotation":90},
+    {"resource_id":"stone_wall","cell_x":16,"cell_z":8,"rotation":0},{"resource_id":"stone_arch","cell_x":9,"cell_z":15,"rotation":90},
+    {"resource_id":"column_stone","cell_x":7,"cell_z":12,"rotation":0},{"resource_id":"column_stone","cell_x":14,"cell_z":12,"rotation":0},
+    {"resource_id":"statue_ancient","cell_x":11,"cell_z":12,"rotation":180},{"resource_id":"crate_wood","cell_x":6,"cell_z":18,"rotation":0},
+    {"resource_id":"crate_wood","cell_x":13,"cell_z":18,"rotation":90},{"resource_id":"torch","cell_x":18,"cell_z":14,"rotation":0},
+    {"resource_id":"torch","cell_x":19,"cell_z":16,"rotation":0},{"resource_id":"dead_tree","cell_x":2,"cell_z":12,"rotation":0}
+  ],
+  "collectibles":[
+    {"resource_id":"crystal_blue","cell_x":6,"cell_z":6,"rotation":0},
+    {"resource_id":"crystal_red","cell_x":15,"cell_z":6,"rotation":90},
+    {"resource_id":"artifact_gold","cell_x":11,"cell_z":19,"rotation":180}
+  ],
+  "exit":{"resource_id":"ancient_gate","cell_x":20,"cell_z":18,"rotation":0}
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ai-world-generator/world-1.0",
+  "title": "AI World Generator level",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version","world_name","theme_id","seed","map","environment","player_start","objects","collectibles","exit"],
+  "properties": {
+    "schema_version": {"const":"1.0"},
+    "world_name": {"type":"string","minLength":1,"maxLength":64},
+    "theme_id": {"enum":["fantasy_forest","abandoned_castle","mars_station","ancient_temple","ice_cave"]},
+    "seed": {"type":"integer","minimum":0,"maximum":2147483647},
+    "map": {
+      "type":"object","additionalProperties":false,"required":["width","depth","cell_size"],
+      "properties":{"width":{"type":"integer","minimum":12,"maximum":40},"depth":{"type":"integer","minimum":12,"maximum":40},"cell_size":{"type":"number","minimum":2.0,"maximum":4.0}}
+    },
+    "environment": {
+      "type":"object","additionalProperties":false,"required":["floor_id","sky_id","lighting_id"],
+      "properties":{"floor_id":{"type":"string"},"sky_id":{"type":"string"},"lighting_id":{"type":"string"}}
+    },
+    "player_start":{"$ref":"#/$defs/cell"},
+    "objects":{"type":"array","maxItems":140,"items":{"$ref":"#/$defs/resource_cell"}},
+    "collectibles":{"type":"array","minItems":3,"maxItems":3,"items":{"$ref":"#/$defs/resource_cell"}},
+    "exit":{"$ref":"#/$defs/resource_cell"}
+  },
+  "$defs": {
+    "cell":{"type":"object","additionalProperties":false,"required":["cell_x","cell_z"],"properties":{"cell_x":{"type":"integer"},"cell_z":{"type":"integer"}}},
+    "resource_cell":{"type":"object","additionalProperties":false,"required":["resource_id","cell_x","cell_z","rotation"],"properties":{"resource_id":{"type":"string"},"cell_x":{"type":"integer"},"cell_z":{"type":"integer"},"rotation":{"enum":[0,90,180,270]}}}
+  }
+}
